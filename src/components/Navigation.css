@@ -1,0 +1,14 @@
+.bg-transparent {
+    background-color: #6eb4ee !important;
+}
+
+/* The navigation bar */
+.navbar-sticky {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 10;
+    box-shadow: 0 2px 4px 2px rgba(103, 182, 201, 0.2), 0 3px 10px 4px rgba(91, 171, 191, 0.19);
+
+}

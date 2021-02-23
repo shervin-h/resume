@@ -1,0 +1,18 @@
+.about{
+    background-color: #ffffff;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.text{
+    font-size: 24px;
+    margin: 8px;
+}
+
+.pull-to-top{
+    margin-top: -300px;
+}

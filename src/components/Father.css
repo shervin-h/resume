@@ -1,0 +1,16 @@
+.black-bar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 8;
+    font-family: IRANSansMobile;
+    background-color: #222222;
+
+}
+
+strong{
+    font-family: IRANSansMobile !important;
+    color: #00ffe4;
+    padding: 4px;
+}
+

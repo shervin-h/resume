@@ -1,0 +1,111 @@
+{
+  "name": "SHERVIN HASANZADEH",
+  "title": "Hello I'm ",
+  "subtitle": "Full Stack Dev | Open-Source & Linux Enthusiast | Interested in Networking, Hacking and Security",
+  "links": {
+    "github": "https://github.com/shervin-h",
+    "stackoverflow": "https://stackoverflow.com/u/13066224",
+    "linkedin": "https://www.linkedin.com/in/shervin-hasanzadeh",
+    "gmail": "mailto:shervin.hz07@gmail.com"
+  },
+  "sections": [
+    {
+      "title": "About",
+      "items": [
+        {
+          "type": "p",
+          "content": "My major is Applied Chemistry. I have been interested in IT and programming since I was a teenager. I worked in a pharmacy for a while. I entered the field of IT a few years ago. I went through different programming courses. I started with Android and Java programming and built an app called 'DARS'. Then I started web programming"
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "Card",
+          "content": {
+            "image": "images/android.png",
+            "title": "Android",
+            "description": "NovinDevelopers - Summer 2019"
+          }
+        },
+        {
+          "type": "Card",
+          "content": {
+            "image": "images/python.png",
+            "title": "Python",
+            "description": "Maktabkhooneh - Dec 2019 to Jan 2020",
+            "ID": "MK-OFL3PD"
+          }
+        },
+        {
+          "type": "Card",
+          "content": {
+            "image": "images/python2.png",
+            "title": "Python Advanced",
+            "description": "Maktabkhooneh - Dec 2019 to Jan 2020",
+            "ID": "MK-TG4KFD"
+          }
+        },
+        {
+          "type": "Card",
+          "content": {
+            "image": "images/java.jpg",
+            "title": "Java",
+            "description": "GoToClass - Nov 2019 to Jan 2020",
+            "ID": "1qe4beo2g175tmm774ns"
+          }
+        },
+        {
+          "type": "Card",
+          "content": {
+            "image": "images/html_css_js.jpg",
+            "title": "HTML-CSS-JS",
+            "description": "GoToClass - Oct 2019 to Jan 2020",
+            "ID": "h8ouw5t94wo41e7d1p8z"
+          }
+        },
+        {
+          "type": "Card",
+          "content": {
+            "image": "images/maktab.jpg",
+            "title": "PHP-Laravel",
+            "description": "Maktab Sharif",
+            "ID": "..."
+          }
+        },
+        {
+          "type": "Card",
+          "content": {
+            "image": "images/wordpress.jpg",
+            "title": "Wordpress",
+            "description": "GoToClass - Dec 2019 to Jan 2020",
+            "ID": "7m5zu633c1lsv2wqvovw"
+          }
+        },
+        {
+          "type": "Card",
+          "content": {
+            "image": "images/ccna.jpg",
+            "title": "CCNA",
+            "description": "Arjang - 2019-11-16",
+            "ID": "373195-Tra1007"
+          }
+        }
+      ]
+    },
+    {
+      "title": "contact",
+      "items": [
+        {
+          "type": ""
+        }
+      ]
+    }
+  ],
+  "icons": {
+    "down": "images/down.png",
+    "theme": "images/theme.png",
+    "up": "images/up.png"
+  }
+}

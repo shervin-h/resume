@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+.first {
+    background-color: #ffffff;
+}
+
+.bg-header{
+    background-color: #9e9e9e;
+}
+
+.text-dark-shadow{
+    text-shadow: 2px 2px 20px #efeeee;
+}
+
+.text-light-shadow{
+    text-shadow: 2px 2px 20px #d2f8e9;
+}
+
+.icon-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    margin: 10px;
+}
+
+.shine {
+    background: #f6f7f8;
+    background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+    background-repeat: no-repeat;
+    background-size: 800px 104px;
+    display: inline-block;
+    position: relative;
+
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeholderShimmer;
+    -webkit-animation-timing-function: linear;
+}
+
+.shimmer {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    margin: auto;
+    padding: 0;
+    display: inline;
+}
+
+.shimmer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.1);
+
+    /*background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));*/
+    /*background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));*/
+    /*background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));*/
+    background: -webkit-gradient(linear, left top, right top, from(#f100ff), to(#f100ff), color-stop(0.5, #fffa15));
+    background: -moz-gradient(linear, left top, right top, from(#f100ff), to(#f100ff), color-stop(0.5, #fffa15));
+    background: gradient(linear, left top, right top, from(#f100ff), to(#f100ff), color-stop(0.5, #fffa15));
+
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    background-color: #a418d7;
+    /*background-color: #222;*/
+}
+
+@-moz-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@-o-keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: top right;
+    }
+}

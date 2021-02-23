@@ -1,0 +1,20 @@
+.icon{
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.f{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-160px);
+}
+
+.b{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(200px);
+}
